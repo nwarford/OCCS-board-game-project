@@ -1,8 +1,10 @@
 import requests
 
-URL = "https://www.boardgamegeek.com/xmlapi/boardgame/174430"
+URL = "https://www.boardgamegeek.com/xmlapi2/thing"
 
-response = requests.get(URL)
+inputDict = {'id':161936, 'stats':1}
+
+response = requests.get(URL,inputDict)
 
 testText = "test.txt"
 
