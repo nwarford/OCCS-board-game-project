@@ -2,7 +2,7 @@ import requests
 
 URL = "https://www.boardgamegeek.com/xmlapi2/thing"
 
-inputDict = {'id':161936, 'stats':1}
+inputDict = {'id':178900, 'stats':1}
 
 response = requests.get(URL,inputDict)
 
